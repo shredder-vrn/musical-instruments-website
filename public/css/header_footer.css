@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/main/fone1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
+    font-family: serif;
+    font-size: 16px;
+    width: 100%;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+header>.container {
+    background-color: black;
+    opacity: 90%;
+    padding: 0px 0px;
+}
+
+header .container .menu a {
+    font-size: 0.875em;
+    text-decoration: none;
+    color: wheat;
+    margin: 0px 90px;
+
+}
+
+header .container .menu a:hover,
+header .container .menu a.active {
+    color: #fc6;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #fc6;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header form div {
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid #fc6;
+    border-radius: 50px;
+    width: 320px;
+}
+
+header form div input[type="text"] {
+    border: none;
+    background-color: black;
+    opacity: 90%;
+}
+
+header form div input[type="submit"] {
+    background: url("../images/main/lupa2.png") no-repeat;
+    background-size: cover;
+    width: 15px;
+    border: none;
+}
+
+header form div input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color: black;
+    opacity: 90%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer .container {
+    align-items: flex-start;
+}
+
+footer .left figure figcaption {
+    color: wheat;
+    font-size: 0.875em;
+    margin-top: 25px;
+    width: 50px;
+}
+
+footer .left nav a {
+    display: block;
+    font-size: 0.875em;
+    color: wheat;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+footer .left {
+    align-items: flex-start;
+}
+
+footer .left nav {
+    margin-left: 100px;
+}
+
+footer .left nav a {
+    text-decoration: none;
+}
+
+footer .left nav a:hover,
+footer .left nav a.active {
+    color: #fc6;
+    text-decoration: none;
+}
+
+footer .right form div {
+    justify-content: left;
+    width: 458px;
+    border-bottom: 1px solid wheat;
+}
+
+footer .right form input[type="text"] {
+    padding: 8px 0px;
+    width: 100%;
+    background: none;
+    border: none;
+}
+
+footer .right form input[type="submit"] {
+    width: 20px;
+    height: 20px;
+    background: url(../images/main/lupa2.png);
+    background-size: cover;
+    border: none;
+}
+
+footer .right>div {
+    color: wheat;
+    text-align: center;
+    font-size: 0.875em;
+    margin-top: 33px;
+    margin-bottom: 15px;
+}
+
+footer .right .box {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+footer .right .telega {
+    background: url(../images/main/free-icon-telegram-3670070.png) no-repeat;
+    margin: 16px 16px;
+    background-size: cover;
+}
+
+footer .right .mail {
+    background: url(../images/main/free-icon-email-3683385.png) no-repeat;
+    margin: 16px 16px;
+    background-size: cover;
+}
+
+footer .right .vk {
+    background: url(../images/main/free-icon-vk-145813.png) no-repeat;
+    margin: 16px 16px;
+    background-size: cover;
+}
+
+footer .protect {
+    text-align: center;
+    color: wheat;
+    font-size: 0.750em;
+    margin-top: 60px;
+}

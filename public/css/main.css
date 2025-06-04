@@ -1,0 +1,119 @@
+.block1 .menu {
+    max-width: 200px;
+}
+.block1 .menu a {
+    display: block;
+    text-decoration: none;
+    color: wheat;
+    font-size: 1.125em;
+    margin: 0px;
+    padding: 12px 25px;
+    background-color: black;
+    opacity: 90%;
+    border-radius: 20px;
+
+}
+.block1 .menu a:hover,
+.block1 .menu a.active {
+    color: #fc6;
+    ;
+    background-color: black;
+    opacity: 90%;
+    padding: 12px 25px;
+    border-radius: 20px;
+}
+.block1 .items {
+    padding-left: 25;
+    background-color: #0f0f0f;
+}
+.block1 .items .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+
+}
+.block1 .items .boxes .box {
+    padding: 28px;
+}
+.block1 .items .boxes_ppp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+}
+
+.block1 .items .boxes_ppp .box_ppp {
+    padding: 28px;
+}
+
+.box .title {
+    color: wheat;
+    margin-left: 200px;
+}
+.box .titleKatalog {
+    text-decoration: none;
+    color: wheat;
+    margin-left: 140px;
+}
+
+
+
+.AboutMe {
+    height: 400px;
+    width: 300px;
+    background-image: url(/images/About-fotor2-2024030882427.png);
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 100px 0px 200px 0px;
+}
+.text-AboutMe {
+    color: wheat;
+    margin-left: 20px;
+    width: 600px;
+}
+.text-AboutMe .CapsText {
+    color: #fc6;
+    font: 900;
+    font-size: 24px;
+}
+
+.boxes.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.d-flex-div{
+    display: flex;
+    justify-content: space-between;
+}
+.firstAbs .text-center{
+    text-align: center;
+}
+.firstAbs .title-shrift{
+    font-size: 24px;
+    font:900;
+    color: #fc6;
+}
+.d-flex-div .title-shrift{
+    font:900;
+    color: #fc6;
+}
+
+
+.box .firstAbs {
+    justify-self: center;
+    color: wheat;
+}
+.box .leftAbs {
+    justify-self: right;
+    color: wheat;
+    text-align: right;
+    width: 50%;
+    margin: 10px 10px;
+
+}
+.box .rightAbs {
+    justify-self: left;
+    color: wheat;
+    width: 50%;
+    margin: 10px 10px;
+}
+

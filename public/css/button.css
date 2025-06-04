@@ -1,0 +1,46 @@
+.button {
+    font-family: serif;
+    font-size: 0.875em;
+    color: wheat;
+    padding: 7px 15px;
+    border: 3px solid #fc6;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 30%;
+}
+
+.button:hover {
+    background-color: #fc6;
+    color: #0f0f0f;
+
+}
+
+
+.button_clear {
+    font-family: serif;
+    font-size: 0.875em;
+    color: wheat;
+    padding: 7px 15px;
+    border: 3px solid #fc6;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 10px;
+}
+
+.button_redate {
+    font-family: serif;
+    font-size: 0.875em;
+    color: wheat;
+    padding: 7px 15px;
+    border: 3px solid #fc6;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button_clear:hover {
+    background-color: #fc6;
+    color: #0f0f0f;
+}
